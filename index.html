@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Grades</title>
+    <link rel="icon" type="image/ico" sizes="32x32" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+    
+        <button class="toggle-button" id="menuToggleButton" aria-label="Toggle menu">
+            ☰
+        </button>
+    
+        <!-- Menu -->
+        <nav class="menu hidden" id="menu">
+         <ul>
+            <li class="active"> <a href="#home">Find a Doctor</a> </li>
+            <li><a href="#">Find a Facility</a></li>
+            <li> <a href="#">Hospital Awards & Ratings</a></li>
+            <li><a href="#">Health A to Z</a></li>
+            <li><a href="#">Healthgrades Account Sign In</a></li>
+            <li><a href="#">Healthgrades for Professionals</a></li>
+         </ul>
+        
+        </nav>
+    
+        <!-- Login/Signup -->
+        <div class="d-flex align-items-center signup">
+          <a href="#login" class="text-decoration-none me-3">
+            <i class="fa-solid fa-stethoscope"></i> Healthgrades for Professionals
+          </a>
+          <a href="#signup" class="text-decoration-none">
+            <i class="fa-solid fa-user"></i>Account Sign In
+          </a>
+        </div>
+      </header>
+
+
+<!-- hero section -->
+<div class="hero_banner_section">
+    <div class="container_full" style="background: url('images/hero_bg2.png'); background-repeat: no-repeat; background-size: cover;">
+        
+            <div class="container">
+                <div class="hero_row">
+                <div class="hero_column">
+                    <div class="hero_content">
+                    <div class="hero_title">
+                        <strong>Health-Grades</strong>
+                        <h1><span>Feel better</span> about finding healthcare </h1>
+                    </div>
+                    <div class="hero_profile">
+                       <div class="hero_user">
+                        <img src="images/user.png" alt="user">
+                        <p>Profiles for Every Doctor in America</p>
+                       </div>
+                       <div class="hero_user">
+                        <img src="images/seach.png" alt="seach">
+                        <p>Search by What Matters Most to You</p>
+                       </div>
+                       <div class="hero_user">
+                        <img src="images/star.png" alt="user">
+                        <p>More Than 13 Million Patient Ratings</p>
+                       </div>
+                    </div>
+                     
+                </div>
+                </div>
+                <div class="hero_column">
+                    <div class="hero_images">
+                       <img src="images/doctorsgroup1.webp" alt="">
+                    </div>
+                   
+                </div>
+            
+            </div>
+            </div>
+        </div>
+</div>
+
+<!-- Find the care you need -->
+
+<div class="find_care_section">
+    <div class="container">
+        <div class="find_care_row">
+            <div class="find_care_content">
+                <div class="search-container">
+                    <h3>Find the care you need</h3>
+                    <div class="search-bar">
+                      <div class="search-box">
+                        <label for="search-input">Search</label>
+                        <input type="text" id="search-input" placeholder="Doctors, conditions, or procedures...">
+                      </div>
+                      <div class="location-box">
+                        <label for="location-input">Location</label>
+                        <input type="text" id="location-input" placeholder="La Guardia Airport, NY">
+                        <button id="clear-location">&times;</button>
+                      </div>
+                      <button class="search-button">&#128269;</button>
+                    </div>
+                    <div class="suggestions">
+                      <div class="top-searches">
+                        <h2>Top Searches</h2>
+                        <ul>
+                          <li>Family Medicine</li>
+                          <li>Pediatrics</li>
+                          <li>Internal Medicine</li>
+                        </ul>
+                      </div>
+                      <div class="categories">
+                        <a href="#">Dentistry</a>
+                        <a href="#">Orthopedic Surgery</a>
+                        <a href="#">+ More</a>
+                      </div>
+                    </div>
+                    <div class="important_links">
+                        <p><a href="#">Family Medicine</a> | <a href="#">Pediatrics </a> | <a href="#">Top Hospitals </a> | <a href="#">COVID-19</a> | <a href="#">Dentistry</a> | <a href="#">Orthopedic Surgery</a> | <a href="#">
+                            + More</a></p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Popular Searches -->
+ <div class="popular_search">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="popular_content">
+                    <h2 class="mb-4">Popular Searches on Healthgrades</h2>
+                   <ul class="nav nav-tabs" id="myTab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link active"
+                              id="home-tab"
+                              data-bs-toggle="tab"
+                              data-bs-target="#home"
+                              type="button"
+                              role="tab"
+                              aria-controls="home"
+                              aria-selected="true"
+                            >
+                            Specialties
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link"
+                              id="profile-tab"
+                              data-bs-toggle="tab"
+                              data-bs-target="#profile"
+                              type="button"
+                              role="tab"
+                              aria-controls="profile"
+                              aria-selected="false"
+                            >
+                            Conditions
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link"
+                              id="contact-tab"
+                              data-bs-toggle="tab"
+                              data-bs-target="#contact"
+                              type="button"
+                              role="tab"
+                              aria-controls="contact"
+                              aria-selected="false"
+                            >
+                            Procedures
+                            </button>
+                          </li>
+                        </ul>
+                        <div class="tab-content mt-3" id="myTabContent">
+                          <div
+                            class="tab-pane fade show active"
+                            id="home"
+                            role="tabpanel"
+                            aria-labelledby="home-tab"
+                          >
+                            <div class="popular_row">
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-notes-medical"></i></a>
+                                        <p><a href="#">Family Medicine</a></p>
+                                    </div>
+                                </div>
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-stethoscope"></i></a>
+                                        <p><a href="#">Internal Medicine</a></p>
+                                    </div>
+                                </div>
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-tooth"></i></a>
+                                        <p><a href="#">Dentistry</a></p>
+                                    </div>
+                                </div>
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-bone"></i></a>
+                                        <p><a href="#">Orthopedic Surgery</a></p>
+                                    </div>
+                                </div>
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-baby"></i></a>
+                                        <p><a href="#">Obstetrics Gynecology</a></p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                          </div>
+                          <div
+                            class="tab-pane fade"
+                            id="profile"
+                            role="tabpanel"
+                            aria-labelledby="profile-tab"
+                          >
+                          <div class="popular_row">
+                            <div class="popular_col">
+                                <div class="icon_text_content">
+                                    <a href="#"><i class="fa-solid fa-notes-medical"></i></a>
+                                    <p><a href="#">Endometriosis</a></p>
+                                </div>
+                            </div>
+                            <div class="popular_col">
+                                <div class="icon_text_content">
+                                    <a href="#"><i class="fa-solid fa-stethoscope"></i></a>
+                                    <p><a href="#">ADHD and-or ADD</a></p>
+                                </div>
+                            </div>
+                            <div class="popular_col">
+                                <div class="icon_text_content">
+                                    <a href="#"><i class="fa-solid fa-tooth"></i></a>
+                                    <p><a href="#">Anxiety</a></p>
+                                </div>
+                            </div>
+                            <div class="popular_col">
+                                <div class="icon_text_content">
+                                    <a href="#"><i class="fa-solid fa-bone"></i></a>
+                                    <p><a href="#">Fibromyalgia</a></p>
+                                </div>
+                            </div>
+                            <div class="popular_col">
+                                <div class="icon_text_content">
+                                    <a href="#"><i class="fa-solid fa-baby"></i></a>
+                                    <p><a href="#">Sleep Apnea</a></p>
+                                </div>
+                            </div>
+                           
+                          
+                        </div>
+                          </div>
+                          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="popular_row">
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-notes-medical"></i></a>
+                                        <p><a href="#">Colonoscopy</a></p>
+                                    </div>
+                                </div>
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-stethoscope"></i></a>
+                                        <p><a href="#">Hernia Repair</a></p>
+                                    </div>
+                                </div>
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-tooth"></i></a>
+                                        <p><a href="#">Vasectomy</a></p>
+                                    </div>
+                                </div>
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-bone"></i></a>
+                                        <p><a href="#">Knee Replacement</a></p>
+                                    </div>
+                                </div>
+                                <div class="popular_col">
+                                    <div class="icon_text_content">
+                                        <a href="#"><i class="fa-solid fa-baby"></i></a>
+                                        <p><a href="#">Hormone Replacement Therapy</a></p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                          </div>
+                        </div>
+                    
+                    <div class="links_popular">
+                        <a href="#">View All Specialties <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+ <!-- half of the american -->
+  <div class="half_american_section">
+    <div class="container">
+        <div class="half_content">
+            <div class="america_map">
+                <img src="images/america.png" alt="">
+            </div>
+            <div class="half_title">
+                <h3><span>Half of all Americans</span> who see doctors each year use Healthgrades to find the right care.</h3>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<!-- healthgrades account -->
+ <div class="healthgrade_account_section">
+    <div class="container">
+        <div class="row">   
+            <div class="col-md-6 col-lg-6 cols-12">
+                <div class="account_image">
+                    <img src="images/health-account.png" alt="health-account">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 cols-12">
+                <div class="account_content">
+                    <h3>Explore what a free Healthgrades account has to offer!</h3>
+                    <p>An account allows you to manage family doctors and insurance, book appointments, receive exclusive discounts on prescription medicine, compare doctors, get appointment reminders, and more...</p>
+                    <div class="links_popular">
+                        <a href="#">Learn More  <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<!-- video_section   -->
+
+<div class="video_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 cols-12">
+                <div class="video_content">
+                   <div class="text-container">
+                            Find the right, 
+                            <div class="changing-word">
+                              <div class="words">
+                                <div>care</div>
+                                <div>Doctors</div>
+                                <div>Hospital</div>
+                              </div>
+                            </div>! 
+                            
+                          </div>
+                          <div class="video_title">
+                            <h3>right at your fingertips</h3>
+                          </div>
+                        <div class="links_popular">
+                            <a href="#">Learn More  <i class="fa-solid fa-angles-right"></i></a>
+                        </div>
+                      
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 cols-12">
+                <div class="video_col">
+                    <iframe width="584" height="329" src="https://www.youtube.com/embed/BN0d2LwBc9A" title="Choose the Best Doctor For You With Confidence | Healthgrades" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- health grade tools -->
+ <div class="healthgrades_tools_section">
+    <div class="container">
+        <div class="tool_title">
+            <h3>Healthgrades gives you the tools and information you need to:</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4 cols-12">
+                <div class="tool_content">
+                    <h4>Choose</h4>
+                    <img src="images/choose-your-doctor.webp" alt="choose-your-doctor">
+                    <p>Find doctors and hospitals based on the factors that matter most to you.</p>
+                </div>
+            </div>
+            <div class="col-md-4 cols-12">
+                <div class="tool_content">
+                    <h4>Prepare</h4>
+                    <img src="images/prepare-for-your-appointment.webp" alt="prepare-for-your-appointment">
+                    <p>Learn what you need to know and which questions to ask your doctor.</p>
+                </div>
+            </div>
+            <div class="col-md-4 cols-12">
+                <div class="tool_content1">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- specific needs section -->
+ <div class="specific_need_section padding-bottom-section">
+    <div class="container">
+        <div class="need_title">
+            <h3>Search by a <span>specific need</span></h3>
+            <p>Find more than a good doctor. Find the right doctor for you.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 cols-12">
+                <div class="need_content">
+                    <div class="need_image">
+                       <a href="#"> <img src="images/PopularSection2.webp" alt=""></a>
+                    </div>
+                    <div class="need_links">
+                        <p>Top rated Primary Care physicians</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 cols-12">
+                <div class="need_content">
+                    <div class="need_image">
+                       <a href="#"> <img src="images/PopularSection1.webp" alt=""></a>
+                    </div>
+                    <div class="need_links">
+                        <p>Orthopedic Surgeons for Knee & Leg Surgery</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 cols-12">
+                <div class="need_content">
+                    <div class="need_image">
+                       <a href="#"> <img src="images/PopularSection3.webp" alt=""></a>
+                    </div>
+                    <div class="need_links">
+                        <p>Mental Health Professionals with virtual appointments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- Your health A to Z -->
+  <div class="your_health_section">
+    <div class="container">
+        <div class="health_row">
+            <div class="health_col">
+                <div class="health_content">
+                    <div class="need_image">
+                        <a href="#"> <img src="images/appointment-checklists.webp" alt="appointment-checklists"></a>
+                     </div>
+                     <div class="health_links">
+                         <h4>Appointment Guides</h4>
+                         <p>Know what to ask your doctor.</p>
+                     </div>
+                </div>
+                <div class="health_content">
+                    <div class="need_image">
+                        <a href="#"> <img src="images/patient-testimonial.webp" alt="patient-testimonial"></a>
+                     </div>
+                     <div class="health_links">
+                         <h4>Video Center</h4>
+                         <p>Watch stories from real patients.</p>
+                     </div>
+                </div>
+                <div class="health_content1">
+                    <div class="need_image">
+                        <a href="#"> <img src="images/download.jpeg" alt="download"></a>
+                     </div>
+                     <div class="health_links">
+                         <h4>Editorial Collections</h4>
+                         <p>In-depth coverage of chronic health conditions from expert professionals and real patients.</p>
+                     </div>
+                </div>
+            </div>
+            <div class="health_col2">
+                <div class="health_content2">
+                    <h3>Your health A to Z</h3>
+                      <p>Easy–to–understand health information to help you be ready for your appointment.</p>  
+                      <p>Learn what you need to know about symptoms, diagnosis, and treatment options to discuss with your doctor. From major surgery to routine procedures, find out what to expect and how to prepare for a successful outcome.</p>      
+                      <div class="links_popular">
+                        <a href="#">Browse all health topics <i class="fa-solid fa-angles-right"></i></a>
+                    </div>         
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+<!-- Find top hospitals close to you -->
+ <div class="find_top_hospital_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 cols-12">
+                <div class="top_hos_content">
+                    <div class="top_image">
+                        <img src="images/america.webp" alt="america">
+                    </div>
+                    <div class="spatiality_part">
+                        <div class="logo_icon">
+                            <img src="images/heart.png" alt="Heart">
+                        </div>
+                        <div class="spatiality_content">
+                            <h4>Specialty Excellence Awards</h4>
+                            <p><a href="#">See the nationwide list of hospitals that achieve clinical excellence in specialty care</a></p>
+                        </div>
+                    </div>
+                    <div class="links_popular">
+                        <a href="#">View hospital quality awards  <i class="fa-solid fa-angles-right"></i></a>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-md-6 cols-12">
+                <div class="awards_content">
+                    <div class="awards_images">
+                        <img src="images/awards.png" alt="awards">
+                    </div>
+                    <div class="awards_text">
+                        <p>Healthgrades Specialty Excellence Awards recognize hospitals that deliver superior patient outcomes in key specialties at the national and state level.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<!-- Reach more patients -->
+ <div class="reach_more_section padding-top">
+    <div class="container">
+        <div class="reach_more_row">
+            <div class="reach_more_col1">
+                <div class="reach_more_content">
+                    <h3>Reach more patients</h3>
+                    <p>Doctors who claim their free Healthgrades profile connect with the right patients 2x more</p>
+                    <p>Your future patients are ready to connect. Make sure your profile stands out. Learn more about how to claim your free Healthgrades profile and our available upgrades.</p>
+                    <div class="all_btn">
+                        <a href="#">Claim your profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="reach_more_col1">
+                <div class="reach_more_image">
+                    <img src="images/HGMD-doctor.webp" alt="HGMD-doctor">
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+     <!-- footer section -->
+     <footer class="main-footer">
+        <div class="footer-info">
+         <div class="main_footer_section">
+             <div class="container">
+                 <div class="footer_row">
+                 <div class="footer_col">
+                  <h5>For Patients</h5>
+                    <ul>
+                       <li><a href="#">Account Sign Up / Log In</a></li>
+                       <li><a href="#">Hospital Awards & Ratings</a></li>
+                       <li><a href="#">Drugs A-Z</a></li>
+                       <li><a href="#">Healthgrades Health Library</a></li>
+                       <li><a href="#">Video Center</a></li>
+                      
+                    </ul>
+                     
+                 </div>
+                 <div class="footer_col">
+                     <h5>For Providers</h5>
+                     <ul>
+                        <li><a href="#">Provider Log In</a></li>
+                        <li><a href="#">Promote Your Practice</a></li>
+                        <li><a href="#">Claim Your Free Profile</a></li>
+                        <li><a href="#">News and Features</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        
+                     </ul>
+                    </div>
+                    <div class="footer_col">
+                        <h5>For Partners</h5>
+                        <ul>
+                           <li><a href="#">Healthgrades for Health Systems</a></li>
+                           <li><a href="#">Promote Quality Achievements</a></li>
+                           <li><a href="#">Life Sciences Advertisers</a></li>
+                           <li><a href="#">Virtual Point of Care Solutions</a></li>
+                           <li><a href="#">Advertising & Use Guidelines</a></li>
+                        
+                        </ul>
+                       
+                       </div>
+                 <div class="footer_col1">
+                     <h5>Contact Us</h5>
+                    <ul>
+                        <li><a href="#" target="_blank">Contact Us</a></li>
+                        <li><a href="#" target="_blank">About Us</a></li>
+                        <li><a href="#" target="_self">Corporate</a></li>
+                        <li><a href="#" target="_blank">Healthgrades Methodologies</a></li>
+                        <li><a href="#" target="_blank">Blog</a></li>
+                        <li><a href="#" target="_blank">Press Room</a></li>
+                        <li><a href="#" target="_blank">Careers</a></li>
+                        <li><a href="#" target="_blank">Privacy Policy</a></li>
+                        <li><a href="#" target="_blank">Advertising Policy</a></li>
+                        <li><a href="#" target="_blank">Your Privacy Choices</a></li>
+                        <li><a href="#" target="_blank">Privacy Settings</a></li>
+                        <li><a href="#" target="_blank">Consumer Health Data Privacy Policy</a></li></ul>
+                 </div>
+             </div>
+             </div>
+         </div>
+         <div class="find_care">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-lg-6 cols-12">
+                    <div class="find_care_content">
+                        <h6>Find Care <i class="fa-solid fa-angle-right"></i></h6>
+                        <div class="news_form">
+                            <h5>Healthy Living Newsletter</h5>
+                            <form class="newsletter-search" action="/search" method="get">
+                                <input type="text" name="query" placeholder="Enter your email address" required>
+                                <button type="submit">Sign me up!</button>
+                              </form>
+                        </div>
+                        <p class="mb-3">Your privacy is important to us. Submission of this form is subject to Healthgrades</p>
+                        <p><a href="#">User Agreement</a> and <a href="#"> Privacy Policy</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 cols-12">
+                    <div class="logo_section">
+                       <div class="logo_section_f">
+                        <div class="footer_logo">
+                            <a href="/"><img src="images/logofooter.png"></a>
+                        </div>
+                        <div class="social_link">
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                       </div>
+                        <p class="mb-3">Healthgrades is an RVO Health company. Third Party materials included herein protected under copyright law.</p>
+                        <p>Use of this website and any information contained herein is governed by the <a href="#">Healthgrades User Agreement</a>. The content on Healthgrades does not provide medical advice. Always consult a medical provider for diagnosis and treatment. </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+         </div>
+         <div class="brand_name">
+            <div class="container">
+                <p>Copyrights © 2024 <a href="/">Healthgrades Marketplace</a>. , LLC, Patent US Nos. 7,752,060 and 8,719,052. All Rights Reserved.</p>
+            </div>
+    
+    </div>
+        </div><!-- footer-info -->
+    </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
