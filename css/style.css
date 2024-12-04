@@ -49,7 +49,7 @@ li {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
+    width: 30%;
     background-color: #f8f9fa;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: none;
@@ -1015,6 +1015,7 @@ ul#myTab button {
     .container {max-width: 100%;}
     .toggle-button {margin-left: 0;}
     .signup a{display: none;}
+    .menu {width: 100%;}
     .header { padding: 18px 15px;}
     .logo img {width:210px;}
     .menu {width: 100%;}
@@ -1119,7 +1120,8 @@ ul#myTab button {
     .toggle-button {margin-left: 0;}
     .header { padding: 18px 15px; max-width: 100%;}
     .logo img {width:210px;}
-    .menu {width: 100%;}
+    .menu {width: 35%;}
+
     .hero_title h1 { font-size: 35px; }
     .hero_user p { font-size: 15px;}
     .search-container { width: 100%;}
